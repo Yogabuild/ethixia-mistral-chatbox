@@ -8,6 +8,9 @@
       "dependencies": [
         "ethixia-mistral-chatbox-backend"
       ],
+      "frontend": {
+        "entrypoint": "src/ethixia-mistral-chatbox-frontend/index.html"
+      },
       "source": [
         "src/ethixia-mistral-chatbox-frontend/dist"
       ],
@@ -19,6 +22,12 @@
     "build": {
       "args": "",
       "packtool": ""
+    }
+  },
+  "networks": {
+    "ic": {
+      "providers": ["https://ic0.app"],
+      "type": "persistent"
     }
   },
   "output_env_file": ".env",

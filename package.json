@@ -14,5 +14,18 @@
   "type": "module",
   "workspaces": [
     "src/ethixia-mistral-chatbox-frontend"
-  ]
+  ],
+  "dependencies": {
+    "@dfinity/agent": "^3.2.3",
+    "@dfinity/auth-client": "^3.2.3",
+    "@dfinity/identity": "^3.2.3",
+    "@tanstack/react-query": "^5.85.5",
+    "lucide-react": "^0.542.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0"
+  }
 }

@@ -1,5 +1,4 @@
-actor {
-  public query func greet(name : Text) : async Text {
-    return "Hello, " # name # "!";
-  };
+persistent actor {
+  // No backend functionality required for this application
 };
+
