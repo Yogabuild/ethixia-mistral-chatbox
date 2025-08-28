@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "ethixia-mistral-chatbox-backend": {
+      "main": "src/ethixia-mistral-chatbox-backend/main.mo",
+      "type": "motoko"
+    },
+    "ethixia-mistral-chatbox-frontend": {
+      "dependencies": [
+        "ethixia-mistral-chatbox-backend"
+      ],
+      "source": [
+        "src/ethixia-mistral-chatbox-frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "ethixia-mistral-chatbox-frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
